@@ -8,7 +8,7 @@ const StyledHeader = styled.header`
   height: 6.25rem;
   margin: 0 auto;
   padding: 0 2.5rem;
-  background: white;
+  background: grey;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <StyledHeader>
       <Link to="/" aria-label="home">
-        <StyledLogo>Henry</StyledLogo>
+        <StyledLogo>HxS</StyledLogo>
       </Link>
     </StyledHeader>
   )
