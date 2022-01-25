@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import GlobalStyle from "./globalStyle"
+import GlobalStyle from "./global"
 import Header from "./header"
 import Footer from "./footer"
 
