@@ -16,7 +16,20 @@ const StyledSection = styled.section`
 const Hero = () => {
     return (
         <StyledSection id="hero">
-        
+            <h1 className="title">
+                Hello <span role="img" aria-label="emoji">👋</span>
+                <br />
+                I'm Henry
+            </h1>
+
+
+            <h2 className="subtitle">
+                I'm a software engineer based in Seattle, WA.
+            </h2>
+
+            <div className="description">
+                Test
+            </div>
         </StyledSection>
     )
 }
