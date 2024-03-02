@@ -12,5 +12,14 @@ import { SocialsComponent } from '../socials/socials.component';
   styleUrl: './main.component.css'
 })
 export class MainComponent {
+  constructor(private router: Router) { 
+    document.addEventListener('mousemove', this.onMouseMove);
+  }
 
+  onMouseMove(event: MouseEvent){
+    const spotlight = document.querySelector('.spotlight')! as HTMLElement;
+    spotlight.style.left = event.clientX + 'px';
+    spotlight.style.top = event.clientY + 'px';
+
+  }
 }
