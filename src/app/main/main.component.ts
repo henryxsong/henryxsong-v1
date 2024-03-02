@@ -4,7 +4,10 @@ import { SocialsComponent } from '../socials/socials.component';
 
 @Component({
   selector: 'app-main',
-  standalone: false,
+  standalone: true,
+  imports: [
+    SocialsComponent
+  ],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css'
 })
