@@ -2,11 +2,17 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { SocialsComponent } from '../socials/socials.component';
 import { CommonModule } from '@angular/common';
+import { AboutComponent } from '../about/about.component';
+import { EducationComponent } from '../education/education.component';
+import { ExperienceComponent } from '../experience/experience.component';
 
 @Component({
   selector: 'app-main',
   standalone: true,
   imports: [
+    AboutComponent,
+    EducationComponent,
+    ExperienceComponent,
     SocialsComponent,
     CommonModule
   ],
