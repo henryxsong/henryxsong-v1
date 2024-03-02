@@ -20,6 +20,5 @@ export class MainComponent {
     const spotlight = document.querySelector('.spotlight')! as HTMLElement;
     spotlight.style.left = event.clientX + 'px';
     spotlight.style.top = event.clientY + 'px';
-
   }
 }
